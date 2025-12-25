@@ -151,7 +151,7 @@ export default function App() {
         <div className="bg-slate-900 text-white p-6 pb-12 rounded-b-[2.5rem] shadow-lg z-10 relative overflow-hidden">
           <div className="absolute top-0 right-0 p-4 opacity-10"><Wallet size={120} /></div>
           <div className="relative z-10">
-            <h1 className="text-lg font-medium text-slate-300 mb-1">本月总支出</h1>
+            <h1 className="text-lg font-medium text-slate-300 mb-1">本月总支出 柏智超</h1>
             <div className="flex items-baseline gap-1">
               <span className="text-2xl font-light">¥</span>
               <span className="text-5xl font-bold tracking-tight">{totalExpense.toLocaleString('zh-CN', { minimumFractionDigits: 2 })}</span>
